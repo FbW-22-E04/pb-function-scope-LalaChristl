@@ -1,15 +1,15 @@
 // 1. Print Exponential Values
 
 function expoValues(x, y) {
-    console.log(typeof x, typeof y);
+  console.log(typeof x, typeof y);
 }
-expoValues(3, 5)
+expoValues(3, 5);
 
-let sum = 1
+let sum = 1;
 for (let i = 1; i <= 5; i++) {
-    sum = sum * 3;
-    console.log(sum);
-  }
+  sum = sum * 3;
+  console.log(sum);
+}
 
 //   function expoValues2(a, b)
 //   {
@@ -17,34 +17,36 @@ for (let i = 1; i <= 5; i++) {
 // }
 //   expoValues2(2, 8)
 
-console.log('-----------------------------------');
+console.log("-----------------------------------");
 
-let sum2 = 1
+let sum2 = 1;
 for (let i = 1; i <= 8; i++) {
-    sum2 = sum2 * 2;
-    console.log(sum2);
-  }
+  sum2 = sum2 * 2;
+  console.log(sum2);
+}
 
-
-  console.log('-----------------------------------');
+console.log("-----------------------------------");
 
 //   2. Fruits
 
-let fruit = 'mango';
+let fruit = "mango";
 function printFavoriteFruit() {
-    console.log('My favorite fruit is', fruit = 'banana');
+  console.log("My favorite fruit is", (fruit = "banana"));
 }
-printFavoriteFruit()
+printFavoriteFruit();
 
-console.log('-----------------------------------');
+console.log("-----------------------------------");
 
 // 3. Multiply a Number by Itself
 
 function exponent(a, b) {
-let result = 1
-for (let i = 0; i < b; i++) {
-result = result * a;
-console.log(result);
-}
+  let result = 1;
+  for (let i = 0; i < b; i++) {
+    result = result * a;
+    console.log(result);
+  }
 }
 exponent(6, 4);
+
+// console.log(result);
+// The variable is defined within the function making it  'Local' therefore not accessable outside of the function.
